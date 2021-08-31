@@ -1,0 +1,182 @@
+LDAP://192.168.1.76:389/DC=CGISE,DC=local
+wsims@CGISE.local
+$ecurends@321
+(|(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=User)(samAccountType:1.2.840.113556.1.4.803:=805306368))(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=contact)))
+
+(objectCategory=Group)
+
+(|(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=User)(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=contact)))
+
+
+LDAP://ec2-54-209-23-183.compute-1.amazonaws.com/DC=securends,DC=local
+
+aduser@securends.local
+1Q@4Ge#m$Rt3
+(|(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=User)(samAccountType:1.2.840.113556.1.4.803:=805306368))(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=contact)))
+
+(objectCategory=Group)
+
+
+(|(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=User)(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=contact)))
+
+
+
+Domain Guests
+
+
+
+
+
+
+
+
+
+
+(|(&(!(cn=*cnf:*))(&(objectCategory=person)(objectClass=user))(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(&(!(cn=*cnf:*))(&(objectCategory=person)(objectClass=user)))(&(!(ou:=*Conference Rooms*))))
+
+
+
+(objectCategory=person)(objectClass=user)(!(memberOf=CN=SecurityGroupName,OU=AnOU,DC=domain,DC=com))
+OU=Shared Mailboxes,OU=CorpSource,DC=int,DC=ensono,DC=com
+
+(&(objectCategory=person)(objectClass=user))
+
+(|(&(!(cn=*cnf:*))(&(objectCategory=person)(objectClass=user))(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(&(!(cn=*cnf:*))(&(objectCategory=person)(objectClass=user))))
+
+
+
+(|(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=User)(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=User))(&(!(ou:dn:=*Conference Rooms*)(!(ou:dn:=*Shared Mailboxes*))(!(ou:dn:=*Managed Service Accounts*)))))
+
+
+
+(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=User)(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)((ou:dn:=*Conference Rooms*)(ou:dn:=*Shared Mailboxes*)(ou:dn:=*Managed Service Accounts*))))
+
+
+
+
+
+
+(|(&(!(cn=*cnf:*))(objectClass=User)(samAccountType:1.2.840.113556.1.4.803:=805306368))(&(!(cn=*cnf:*))(objectClass=User)))
+
+
+
+(|(&(!(cn=*cnf:*))(objectClass=User)(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(&(!(cn=*cnf:*))(objectClass=User)))
+
+
+
+
+
+
+(&(objectClass=person)(|(ou:dn:=ResearchAndDevelopment)(ou:dn:=HumanResources)))
+
+(&(objectClass=person)(|(ou:dn:=weboffice security)(ou:dn:=WebOffice)))
+
+(|(ou:dn:=weboffice security)(ou:dn:=WebOffice)))
+
+(|(&(!(cn=*cnf:*))((objectClass=person)(|(ou:dn:=weboffice security)(ou:dn:=WebOffice)))(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=contact)))
+
+(|(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=User)(&(objectClass=person)(|(ou:dn:=weboffice security)(ou:dn:=WebOffice)))(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=contact)))
+
+(&(!(cn=*cnf:*))(&(&(objectCategory=person)(objectClass=user))(ou:dn:=DevTeam))(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))
+
+(|(&(!(cn=*cnf:*))(((|(ou:dn:=weboffice security)(ou:dn:=WebOffice)))(samAccountType:1.2.840.113556.1.4.803:=805306368)(!(userAccountControl:1.2.840.113556.1.4.803:=2)))(&(!(cn=*cnf:*))(objectCategory=Person)(objectClass=contact))))
+
+OU=DevTeam
+
+(memberOf:1.2.840.113556.1.4.1941:= cn=Test,ou=East,dc=Domain,dc=com)
+
+
+LDAP://14.140.148.172/DC=CGISEDB,DC=local
+
+LDAP://192.168.1.242/DC=CGISEDB,DC=local
+ADUser242@CGISEDB.local
+14.140.148.172
+
+ou=myou
+
+OU=Sales,DC=securends,DC=local
+
+OU=WebOffice,DC=smartpakequine,DC=com
+OU=weboffice security,OU=WebOffice,DC=smartpakequine,DC=com
+
+weboffice security
+sub OU to Weboffice
+
+(&(&(!(cn:dn:=jbond))(|(ou:dn:=ResearchAndDevelopment)(ou:dn:=HumanResources)))(objectclass=Person))
+(&(objectClass=person)(|(ou:dn:=ResearchAndDevelopment)(ou:dn:=HumanResources)))
+(&(objectClass=group)(ou:dn:=weboffice security))
+(&(objectClass=group)(|(ou:dn:=Chicago)(ou:dn:=Miami)))
+
+OU=weboffice security,OU=WebOffice
+(&(objectCategory=Group)(!(cn=*cnf:*)))
+
+(&(objectCategory=Group)(!(cn=*cnf:*))(|(ou:dn:=weboffice security)(ou:dn:=WebOffice)))
+
+
+
+LDAP://192.168.1.244/OU=weboffice security,OU=WebOffice,DC=smartpakequine,DC=com
+javax.naming.directory.InvalidSearchFilterException: invalid attribute description; remaining name ''
+
+smtp.mailbox.org
+587
+
+Should become something like:
+
+(&(objectClass=group)(!(cnf=*)))
+
+OR 
+
+(&(objectCategory=Group)(!(cn=*cnf=*))(|(cn=Administrators)(cn=Domain Admins)(cn=Backup Operators)))
+(&(objectCategory=group)(cn=Administrators))
+ 
+OR 
+ 
+(&(objectCategory=Group)(!(cn=*cnf:*)))
+
+Authentication Administrator,Azure Information Protection Administrator
+
+
+Client ID e3e87b0b-c15a-448c-b85c-ceadb91fe137
+Client Secret c0.YPNObB6wQLd6z=LuIKdxnag-N/jB8
+TenantID 75867991-2c16-404f-83c4-324890388fe2
+
+Github
+Client id
+9703a6f1757ba9176642
+
+Client Secret
+7bd41add32e6c40ac9910e9c363f6b8c4de3979d
+
+https://github.com/login/oauth/authorize?client_id=9703a6f1757ba9176642&scope=user%20public_repo
+
+
+Secret key
+ybqPPEGAn6As6F3?Bz:1YQD/-MHI]Rld
+
+
+00I7JXj9uBbXUDxnQyar0QX-r8gaQt9pwfL5ZSjNNK
+
+office365 client secret
+8Sae7U.r9Ubgl/O?IsyWIYIBRqJk.8lc
+
+
+https://dev-577759.okta.com/
+
+nmiriyal@charterglobal.com
+
+Hinaresh@13
+
++ve okta
+
+https://securendstest.zendesk.com
+gudipudi.radhesyam@gmail.com
+Charter@123
+
+LDAP://ec2-54-209-23-183.compute-1.amazonaws.com/OU=Sales,DC=securends,DC=local
+
+
+/CEM Documentation,/CEM Sample CSV docs,/CEM Sample Files,/CEM sample Templates,/Securends  Account sheets,/Securends Applications,/Securends Sample docs,/Securends_configuration Files
+
+smb://192.168.1.76/Sharefolder/
+
+Securends Applications (file://EC2AMAZ-0TVGG7L/Securends%20Applications)

@@ -1,0 +1,40 @@
+praveen.kolipaka@securends.com
+
+Charter@345
+
+https://login.salesforce.com
+
+Client ID : 3MVG9YDQS5WtC11oNkRBYgennoCIKy4e_p7H7GYw3h05_G40mH8CZ8dwxSJjxRKnaOeTYV5m1OCY8XevUmm5d
+Client secret : E070620C49ABE76CC0938BB096D55FA368D6DE961C7BA7C4F56994DF0C637899
+security token : fVm7Txc8Q2Wa3FR6imswQjxv
+
+daW1FU7Hb57gMes8HZAEMGyAm
+
+
+
+/api/campaign/elections/61/190/A
+
+https://aarpvolunteer.lightning.force.com/lightning/page/home
+https://aarpvolunteer.my.salesforce.com
+
+https://aarpcrm.my.salesforce.com
+
+
+https://aarpcrm.lightning.force.com/lightning/page/home
+
+
+
+Username	securends@irco.com
+Password	Secure2021
+Consumer Key	3MVG9fMtCkV6eLhcaiIsBnIllpi.H6Q2iAVsfmK.zN8l3l_FqQ5EkO7kO9UzvRr0H7.BbTPCwL5Ts9pcDNIxw
+Consumer Secret	08C6F78C3F2C45709DF00CFF837067EB0A2C4A568452C1B18A609FB7D95EAE7D
+Login URL 	https://login.salesforce.com
+
+Security token (case-sensitive): 	YM9tz1gdnRFq8sGnWX6Qkd8g
+
+
+okta 
+securendscemtest.okta.com
+00LlvAv3yu0nQYvaSdRLRhT4sbSIM0Z7Nlf9Ar3cyX
+
+

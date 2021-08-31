@@ -1,0 +1,28 @@
+iherb.okta.com
+00P0L3c0cS0YM1DUlBqfcLZhOrBAWIU0lCh_bRC1at
+
+
+Production - API Salesforce  issue with file name which have .xlxs
+2020 Production - Celergo Admins issue with file name which have .xlxs
+
+
+75867991-2c16-404f-83c4-324890388fe2
+1T_0w-gE2A4r0~45_o8uDHu.X4b7~wwa~0
+c2ba1aeb-f162-42b2-8ed5-a8c1c705e074
+
+url- https://api8preview.sapsf.com/odata/v2/User
+username- SecurendsAPI
+password- sapSF123
+company id- C0000164178T1
+user_email_mapping_priority - email,username
+ 
+if include inactive users is selected as "yes"
+Status Filter= 't','f'
+ 
+if include inactive users is selected as "no"
+Status Filter= 't'
+9D6F0BE01EC503F24CA90252EC2C269AEA50344F4B3022C870E24FDB15DA537B	2C7E2EF28B1C543F8A779D0864144E0514309946362F6AF7D886C16F9A56CD29	1
+
+(&(objectClass=group)(|(cn=Domain Admins)(cn=Account Operators)(cn=BVEX-app-lastpass*)(cn=Server Operators)(cn=Enterprise Admins)(cn=Group Policy Creator Owners)(cn=Schema Admins)(cn=BV-SCCM-BranchServers-Access)(cn=Backup Operators)(cn=BV/BV-Users-IT-AllServers-Admins)(cn=NA/VC-Users-IT-AllServers-Admins)(cn=BVEX-Consultants-E1-Patching-Allari)(cn=CNC)(cn=Masyc Consultants Admins Group)(cn=BV-Users-IT-Infrastructure-Admins)(cn=BV-App-E1-LocalAdmin)))
+
+{"zenDesk.username":"manoj.kumar@securends.com","zenDesk.password":"Charter@123","zenDesk.url":"
